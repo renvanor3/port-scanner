@@ -11,4 +11,4 @@ Un scanneur de ports réseau multi-threads écrit en Python.
 ## Utilisation
 Aucune dépendance nécessaire, Python 3 suffit
 
-Lancement typique : python scanner.py 127.0.0.1 -d 1 -f 1000 -t 100
+Lancement typique : python scanner.py 127.0.0.1 -s 1 -e 1000 -n 100
