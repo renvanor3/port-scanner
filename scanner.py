@@ -49,7 +49,7 @@ def main():     #pour déclancher le programme avec les arguments
     args = parser.parse_args()
 
     try:
-        start_scan(args.target, args.start, args.end, args.threads, args.timeout)
+        start_scan(args.target, args.start, args.end, args.threads)
     except KeyboardInterrupt: #Stopping the scan with CTRL+C
         print("Scan interrupted by user")
 
